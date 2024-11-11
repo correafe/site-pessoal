@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site Pessoal</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home" class="nav-listt">Home</a>
+            <a href="#projects" class="nav-listt">Fotos</a>
+            <a href="#contact" class="nav-listt">Contato</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <!-- HOME -->
+    <section id="home">
+      <div class="home-info">
+        <h2>Olá, sou Felipe</h2>
+        <span class="home-resume">
+          Graduando em Ciência da Computação pela Universidade Federal de Alfenas (UNIFAL-MG). Atualmente, estagio na Pró-Reitoria de Gestão de Pessoas (PROGEPE) da universidade e sou monitor da disciplina de Estatística Básica neste semestre de 2024/2. 
+        </span>
+        <span class="home-resume">
+          Além das atividades acadêmicas e profissionais, tenho grande interesse por música, leitura e culinária.
+          Sou natural de Porto Ferreira, São Paulo, e moro em uma república estudantil que fundei em 2022, onde vivemos em cinco moradores, compartilhamos a casa e muitas histórias, e, para completar, temos nossa fiel companheira, uma cachorrinha chamada Maria Flor do Norte, que está sempre ao nosso lado.
+        </span>
+      </div>
+      <div class="home-img">
+        <img src="./img/foto1.jpg" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!-- FOTOS -->
+
+    <section id="projects">
+      <h1>Fotos</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto8.jpg" alt="Foto de um site">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto6.jpg" alt="Foto de uma loja online">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto5.jpg" alt="Foto de um sistema">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto2.jpg" alt="Foto de um sistema">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto3.jpg" alt="Foto de um sistema">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/foto4.jpg" alt="Foto de um sistema">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>     
+
+  <!-- CONTACT -->
+
+<div class="social-container" id="contact">
+  <h1>Contato</h1>
+  <div class="social-row">
+      <a href="mailto:felipe.correa@sou.unifal-mg.edu.br" target="_blank" class="social-item">
+          <img src="img/email.png" alt="Email Icon" width="24" height="24">
+          <h3>Email</h3>
+      </a>
+      <a href="https://github.com/correafe" target="_blank" class="social-item">
+          <img src="img/github.png" alt="GitHub Icon" width="24" height="24">
+          <h3>GitHub</h3>
+      </a>
+  </div>
+  <div class="social-row">
+      <a href="https://www.linkedin.com/in/felipe-corr%C3%AAa-3b8a99216/" target="_blank" class="social-item">
+          <img src="img/linkedin.png" alt="LinkedIn Icon" width="24" height="24">
+          <h3>LinkedIn</h3>
+      </a>
+      <a href="https://www.skoob.com.br/usuario/9695645-fepcorrea" target="_blank" class="social-item">
+          <img src="img/skoob.png" alt="Skoob Icon" width="24" height="24">
+          <h3>Skoob</h3>
+      </a>
+  </div>
+</div>
+
+
+  <footer>
+    copyright © 2024 Felipe Corrêa. Todos os direitos reservados
+  </footer>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
